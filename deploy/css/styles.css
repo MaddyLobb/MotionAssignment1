@@ -423,6 +423,7 @@ nav ul li {
 }
 nav ul li a:link, nav ul li a:visited {
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   font-size: 1.125rem;
   color: #737144;
   font-weight: 400;
@@ -436,12 +437,10 @@ header {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1));
-  z-index: 1000;
 }
 header > div {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 40% auto;
   padding: 8px 16px;
 }
 header > div aside {
@@ -462,7 +461,7 @@ header > div aside a {
   #hero {
     display: grid;
     grid-template-areas: ". hero .";
-    grid-template-columns: auto 1440px auto;
+    grid-template-columns: auto 1680px auto;
   }
 }
 #hero > div {
@@ -488,38 +487,18 @@ header > div aside a {
   text-align: center;
 }
 #hero > div article section h1 {
-  font-size: 4rem;
+  font-size: 2.75rem;
+  font-family: "Oswald", sans-serif;
   font-weight: 900;
-  line-height: 117px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
   #hero > div article section h1 {
-    font-size: 5.625rem;
+    font-size: 3.375rem;
   }
 }
 @media (min-width: 1024px) {
   #hero > div article section h1 {
-    font-size: 6.25rem;
-  }
-}
-#hero > div article section h2 {
-  font-size: 1.875rem;
-  font-weight: 400;
-  line-height: 47px;
-  margin-top: -25px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-}
-@media (min-width: 768px) {
-  #hero > div article section h2 {
-    font-size: 2.5rem;
-    margin-top: -20px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero > div article section h2 {
-    font-size: 3.125rem;
-    margin-top: -15px;
+    font-size: 4rem;
   }
 }
 
@@ -555,11 +534,15 @@ header > div aside a {
   }
 }
 #content > div h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #624B3E;
 }
 #content > div p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.125rem;
   color: #938170;
   line-height: 1.875rem;

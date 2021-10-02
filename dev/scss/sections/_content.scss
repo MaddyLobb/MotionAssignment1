@@ -26,12 +26,16 @@
         }
 
         h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 900;
             font-size: rem-calc(24);
             margin-bottom: 10px;
             color: $brown;
         }
 
         p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
             font-size: rem-calc(18);
             color: $lightbrown;
             line-height: rem-calc(30);

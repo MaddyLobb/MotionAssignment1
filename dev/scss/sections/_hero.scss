@@ -5,7 +5,7 @@
     @include xl {
         display: grid;
         grid-template-areas: ". hero .";
-        grid-template-columns: auto 1440px auto;
+        grid-template-columns: auto 1680px auto;
     }
 
     >div {
@@ -33,37 +33,20 @@
                 text-align: center;
 
                 h1 {
-                    font-size: rem-calc(64);
+                    font-size: rem-calc(44);
+                    font-family: 'Oswald', sans-serif;
                     font-weight: 900;
-                    line-height: 117px;
-                    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+                    
 
                     @include md {
-                        font-size: rem-calc(90);
+                        font-size: rem-calc(54);
                     }
 
                     @include lg {
-                        font-size: rem-calc(100);
+                        font-size: rem-calc(64);
                     }
                 }
 
-                h2 {
-                    font-size: rem-calc(30);
-                    font-weight: 400;
-                    line-height: 47px;
-                    margin-top: -25px;
-                    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-
-                    @include md {
-                        font-size: rem-calc(40);
-                        margin-top: -20px;
-                    }
-
-                    @include lg {
-                        font-size: rem-calc(50);
-                        margin-top: -15px;
-                    }
-                }
             }
         }
 
