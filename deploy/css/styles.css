@@ -466,6 +466,7 @@ header > div aside a {
 }
 #hero > div {
   overflow: hidden !important;
+  height: 100%;
 }
 @media (min-width: 1440px) {
   #hero > div {

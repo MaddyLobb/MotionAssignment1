@@ -11,7 +11,7 @@
     >div {
 
         overflow: hidden !important;
-        //height: 100%;
+        height: 100%;
 
         @include xl {
             grid-area: hero;
@@ -44,6 +44,7 @@
 
                     @include lg {
                         font-size: rem-calc(64);
+            
                     }
                 }
 
