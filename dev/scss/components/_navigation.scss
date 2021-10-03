@@ -11,15 +11,17 @@ nav{
         height: 100%;
 
         li{
-            margin-left: 4vw;
+            margin-left: 2vw;
 
             a:link, a:visited{
                 font-family: 'Open Sans', sans-serif;
-                font-weight: bold;
-                font-size: rem-calc(18);
+                font-size: rem-calc(16);
                 color: $green;
-                font-weight: 400;
-                transition: 0.25s;
+                font-weight: 900;
+
+                @include md{
+                    font-size: 18px;
+                }
 
             }
         }

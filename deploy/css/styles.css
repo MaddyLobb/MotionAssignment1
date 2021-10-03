@@ -419,15 +419,18 @@ nav ul {
   height: 100%;
 }
 nav ul li {
-  margin-left: 4vw;
+  margin-left: 2vw;
 }
 nav ul li a:link, nav ul li a:visited {
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #737144;
-  font-weight: 400;
-  transition: 0.25s;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  nav ul li a:link, nav ul li a:visited {
+    font-size: 18px;
+  }
 }
 
 /* =============
@@ -440,11 +443,19 @@ header {
 }
 header > div {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 30% auto;
   padding: 8px 16px;
 }
-header > div aside {
+header > div aside a:link, header > div aside a:visited {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.125rem;
   color: #624B3E;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  header > div aside a:link, header > div aside a:visited {
+    font-size: 25px;
+  }
 }
 header > div aside a {
   display: inline-block;
