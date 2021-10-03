@@ -1,11 +1,11 @@
 #hero {
     height: 90vh;
-    width: 100%;
+    //width: 100%;
 
     @include xl {
         display: grid;
         grid-template-areas: ". hero .";
-        grid-template-columns: auto 1680px auto;
+        grid-template-columns: auto 100% auto;
     }
 
     >div {

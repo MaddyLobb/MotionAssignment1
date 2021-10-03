@@ -31,9 +31,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/hero\/Ellipse 1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/hero\/Ellipse 1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/hero\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 412379,
+      "iS" : 445983,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero\/hero.jpg",
@@ -112,7 +122,7 @@
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,

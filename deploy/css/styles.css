@@ -466,13 +466,12 @@ header > div aside a {
 ============= */
 #hero {
   height: 90vh;
-  width: 100%;
 }
 @media (min-width: 1440px) {
   #hero {
     display: grid;
     grid-template-areas: ". hero .";
-    grid-template-columns: auto 1680px auto;
+    grid-template-columns: auto 100% auto;
   }
 }
 #hero > div {
