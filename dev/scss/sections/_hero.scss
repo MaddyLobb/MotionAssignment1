@@ -1,12 +1,32 @@
 #hero {
     height: 90vh;
-    //width: 100%;
+    width: 100%;
 
     @include xl {
         display: grid;
         grid-template-areas: ". hero .";
         grid-template-columns: auto 100% auto;
     }
+
+    #path{
+        position: absolute;
+        bottom: 200px;
+        right: 5px;
+
+        @include md{
+            bottom: 200px;
+            right: 200px;  
+        }
+
+        @include lg{
+            right: 300px;
+        }
+
+        @include xl{
+           right: 400px; 
+        }
+    }
+
 
     >div {
 
@@ -21,13 +41,18 @@
 
             align-items: center;
             background-image: url("../img/hero/hero.jpg");
-            background-position: center;
+            background-position: 50%, 30%; 
             background-size: cover;
             display: flex;
             height: 100%;
             justify-content: center;
+            position: relative;
 
-            //background-image: url("../img/hero/Ellipse 1.svg");
+            @include xl{
+                background-position: center; 
+            }
+
+            
 
 
             section {

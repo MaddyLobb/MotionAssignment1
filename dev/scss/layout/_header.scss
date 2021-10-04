@@ -5,6 +5,8 @@ header{
     position: fixed;
     width: 100%;
     background-color: $white;
+    z-index: 1000;
+    
     >div{
         display: grid;
         grid-template-columns: 30% auto;

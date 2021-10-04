@@ -440,6 +440,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #fff;
+  z-index: 1000;
 }
 header > div {
   display: grid;
@@ -466,12 +467,34 @@ header > div aside a {
 ============= */
 #hero {
   height: 90vh;
+  width: 100%;
 }
 @media (min-width: 1440px) {
   #hero {
     display: grid;
     grid-template-areas: ". hero .";
     grid-template-columns: auto 100% auto;
+  }
+}
+#hero #path {
+  position: absolute;
+  bottom: 200px;
+  right: 5px;
+}
+@media (min-width: 768px) {
+  #hero #path {
+    bottom: 200px;
+    right: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #path {
+    right: 300px;
+  }
+}
+@media (min-width: 1440px) {
+  #hero #path {
+    right: 400px;
   }
 }
 #hero > div {
@@ -486,11 +509,17 @@ header > div aside a {
 #hero > div article {
   align-items: center;
   background-image: url("../img/hero/hero.jpg");
-  background-position: center;
+  background-position: 50%, 30%;
   background-size: cover;
   display: flex;
   height: 100%;
   justify-content: center;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  #hero > div article {
+    background-position: center;
+  }
 }
 #hero > div article section {
   color: #fff;
