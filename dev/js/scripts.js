@@ -13,7 +13,7 @@ const mainTL = gsap.timeline();
 
 // name of the timeline | do you want to start at the end or the beginning of the timeline?  | What do you want to animate? | { how long is the animation? | what do you want to do?}
 
-mainTL.to("#path",{duration: 2, drawSVG:"0%"});
+mainTL.to("#pathOne",{duration: 2, drawSVG:"0%"});
 
 //mainTL.to("#path", {duration: 2, drawSVG: "50%"});
 
