@@ -16,5 +16,9 @@ const mainTL = gsap.timeline();
 // pathOne or circle starts at begining of timeline and will draw out fully then disapear
 mainTL.to("#pathOne",{duration: 2, drawSVG:"0%"});
 
-// hero text will starts at end of the timeline and will slide onto screen from the right as that happens the text will gain opacity all over 2 seconds
-mainTL.from("#text",{duration:2, alpha: 0, x: 1000});
+
+// hero text will starts at end of the timeline and will fade onto screen -1 second before the end of the previous animation of a circle and last 2 seconds
+mainTL.from("#text",{duration:3, alpha: 0},">-1");
+
+// header or navbar text starts at end of the timeline and will fade onto screen -2 seconds before the end of the previous animation of hero text and will last .5 seconds 
+mainTL.from("#header", {duration: .5, alpha: 0},">-2");
