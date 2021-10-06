@@ -13,8 +13,8 @@ const mainTL = gsap.timeline();
 
 // name of the timeline | do you want to start at the end or the beginning of the timeline?  | What do you want to animate? | { how long is the animation? | what do you want to do?}
 
+// pathOne or circle starts at begining of timeline and will draw out fully then disapear
 mainTL.to("#pathOne",{duration: 2, drawSVG:"0%"});
 
-//mainTL.to("#path", {duration: 2, drawSVG: "50%"});
-
-// mainTL.from("#text",{duration:2, alpha: 0, x: 1000});
+// hero text will starts at end of the timeline and will slide onto screen from the right as that happens the text will gain opacity all over 2 seconds
+mainTL.from("#text",{duration:2, alpha: 0, x: 1000});

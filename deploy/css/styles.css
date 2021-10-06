@@ -476,27 +476,6 @@ header > div aside a {
     grid-template-columns: auto 100% auto;
   }
 }
-#hero #path {
-  position: absolute;
-  bottom: 200px;
-  right: 5px;
-}
-@media (min-width: 768px) {
-  #hero #path {
-    bottom: 200px;
-    right: 200px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero #path {
-    right: 300px;
-  }
-}
-@media (min-width: 1440px) {
-  #hero #path {
-    right: 400px;
-  }
-}
 #hero > div {
   overflow: hidden !important;
   height: 100%;
@@ -505,6 +484,9 @@ header > div aside a {
   #hero > div {
     grid-area: hero;
   }
+}
+#hero > div svg {
+  position: absolute;
 }
 #hero > div article {
   align-items: center;

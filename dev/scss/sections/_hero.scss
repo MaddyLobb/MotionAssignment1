@@ -8,26 +8,6 @@
         grid-template-columns: auto 100% auto;
     }
 
-    #path{
-        position: absolute;
-        bottom: 200px;
-        right: 5px;
-
-        @include md{
-            bottom: 200px;
-            right: 200px;  
-        }
-
-        @include lg{
-            right: 300px;
-        }
-
-        @include xl{
-           right: 400px; 
-        }
-    }
-
-
     >div {
 
         overflow: hidden !important;
@@ -39,7 +19,7 @@
 
 
         svg{
-            // margin-top: 300px;
+            position: absolute;
         }
 
         article {
